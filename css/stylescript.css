@@ -1,0 +1,75 @@
+body {
+  background-image: url("../graphics/dreamit.jpg");
+  /* background-size: completely; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1#title {
+  padding: 15px 2px 0px 2px;
+  font-family: Calibri Light;
+  font-size: 40px;
+  text-align: center;
+  color: #e6e6e6;
+}
+
+h2.heading {
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%
+}
+
+ul li.navlinks {
+  display: inline;
+}
+ul li a {
+  padding: 0px 10px 0px 10px;
+  background-color: #7D7D7D;
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #6A6ACC;
+}
+ul li a#select {
+  background-color: #6A6ACC;
+  color: white;
+}
+
+div#nav {
+  background-color: white;
+  float: top;
+  padding: 0 0 0 0;
+  text-align: center;
+ }
+
+div#strip {
+  background-color: #76ADD3;
+  background: linear-gradient(#76ADD3, #CD9BFF);
+  text-align: left;
+  font-family: Gabriola;
+  font-size: 25px;
+  margin: 0 15vw 0 15vw;
+}
+
+div#content {
+  padding: 0px 50px 0px 50px;
+}
+
+a img.horse{
+  border: none;
+  float: right;
+  float: top;
+}
+
+span#horsetxt {
+  font-size: 2px;
+}
